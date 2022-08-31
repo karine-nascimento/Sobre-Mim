@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-y: hidden;
+}
+
+header {
+   position: absolute;
+   background-color: rgb(196, 169, 221);
+   height: 110px;
+   width: 100%;
+}
+.logo {
+    position: relative;
+    left: 1240px;
+    top: 5px;
+}
+
+
+#sidebar {
+    z-index: 1000px;
+    display: block;
+    width: 180px;
+    height: 630px;
+    padding: 10px;
+    position: relative;
+    background-color: rgba(211,211,211,0.7);
+}
+li {
+    list-style: none;
+    position: relative;
+    left: 10px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+}
+.botao {
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 450px;
+    left: 1260px;
+    background-color: rgba(184, 164, 212, 0.76);
+}
+.botao .link {
+color: white;
+position: relative;
+top: 2px;
+left: 20px;
+font-size: 60px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.caixa {
+    height: 350px; 
+    width: 240px;
+    background-color: rgba(211,211,211,0.8);
+    position: relative;
+    bottom: 500px;
+    left: 1100px;
+}
+
+.capa {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.capa:hover {
+    transition: 0.3s;
+    opacity: 0.9;
+}
+
+.botoes {
+    position: relative;
+    right: 10px;
+    top: 40px;
+    width: 200px;
+}
+
+.gato {
+    position: relative;
+    bottom: 900px;
+    left: 250px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border: 1px solid lightgray;
+    box-sizing: content-box;
+}
+
+.patins {
+    position: relative;
+    bottom: 900px;
+    left: 300px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border: 1px solid lightgray;
+    box-sizing: content-box;
+}
+
+.banda {
+    position: relative;
+    bottom: 900px;
+    left: 350px;
+    padding: 10px;
+    padding-bottom: 30px;
+    border: 1px solid lightgray;
+    box-sizing: content-box;
+}
+
+.fro {
+    position: relative;
+    bottom: 1293px;
+    left: 185px;
+    padding-right: 50px;
+    display: inline;
+}
+
+.quadros {
+    position: relative;
+    bottom: 970px;
+    left: 70px;
+    width: 85%;
+}
+
+/*COMER PAGS*/
+
+#tudo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 940px;
+}
+
+#nav {
+    background-color: rgba(247, 231, 139, 0.527);
+    position: fixed;
+    width: 100%;
+    height: 45px;
+}
+
+#nav ul {
+    margin-top: -8px;
+    padding: 0px 0px 15px 700px;
+}
+#nav li {
+    display: inline;
+    padding: 0px 20px 0px 0px;
+
+}
+
+#nav a {
+    color: gray;
+    text-decoration: none;
+}
+ #nav a:hover, #nav a.current {
+    color: black;
+ }
+
+ #nav a:hover {
+    background-color:  rgba(184, 164, 212, 0.76);
+    padding: 10px;
+    border-radius: 2px;
+ }
+ nav {
+    position: static;
+    z-index: 1000px;
+ }
+
+ #nav .sobre {
+    position: relative;
+    display: inline-block;
+    top: 12px;
+    margin-left: 30px;
+    text-transform: uppercase;
+    color: black;
+ }
+
+ #content {
+    margin: 20px;
+    width: 700px;
+    float: left;
+ }
+
+ .side h2 {
+    color: rgb(83, 83, 83);
+    position: relative;
+    left: 50px;
+    padding: 20px;
+ }
+
+ .side .name {
+    color: gray;
+    position: relative; 
+    left: 150px;
+
+ }
+ .side {
+    float: right;
+    border-left: 1px solid gray;
+    position: relative;
+    bottom: 830px;
+    padding: 20px;
+    left: 300px;
+}
+
+.motivo {
+width: 250px; 
+text-align: justify;
+position: relative;
+left: 80px;
+padding: 20px
+}
+.motivo p {
+    color: rgb(88, 88, 88);
+}
+.person {
+position: relative;
+left: 100px;
+border-radius: 100px;
+}
+ #footer {
+    clear: both;
+ }
+
+ .bloco1 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+    top: 20px;
+ }
+
+.pao {
+border-radius: 10px;
+border: 1px solid lightgrey;
+width: 347px;
+height: 217px;
+ }
+
+ .bloco2 {
+    max-width: 200px;
+    position: relative;
+    left: 90px;
+ }
+
+ .bloco3 {
+    position: relative;
+    bottom: 280px;
+    left: 354px;
+    max-width: 300px;
+ }
+
+ .bloco2, .bloco3 {
+    color: gray;
+
+ }
+
+ .bloco2 .bloco3 h2 {
+    color: rgb(83, 83, 83);
+  
+ }
+ 
+
